@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tables in HTML</h1>
+    <!-- tables in html -->
+    <table border="1" >
+        <caption>Shopping List</caption>
+        <colgroup style="background-color: lightblue;"></colgroup>
+        <colgroup style="background-color: rgb(173, 230, 180);"></colgroup>
+        <colgroup style="background-color: rgb(230, 173, 213);"></colgroup>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Chips</td>
+          <td>5</td>
+          <td>$10.00</td>
+        </tr>
+        <tr>
+          <td>Biscuits</td>
+          <td>3</td>
+          <td>$15.00</td>
+        </tr>
+        <tr>
+          <td>Chocolate</td>
+          <td>2</td>
+          <td>$20.00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">Total</th>
+          <th>$45.00</th>
+        </tr>
+      </tfoot>
+    </table>
+    <br>
+    <h1>Form in HTML</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+        <label for="country">Country:</label>
+        <select id="country" >
+            <option>United States</option>
+            <option>Canada</option>
+            <option>United Kingdom</option>
+        </select><br><br>
+        <label for="city">City:</label>
+        <select id="city">
+            <optgroup label="East">
+                <option>New York</option>
+                <option>Toronto</option>
+            </optgroup>
+            <optgroup label="West">
+                <option>Los Angeles</option>
+                <option>Vancouver</option>
+            </optgroup>
+        </select><br><br>
+        <label for="review">Review:</label>
+        <textarea id="review" placeholder="Enter your review"></textarea><br><br> 
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
