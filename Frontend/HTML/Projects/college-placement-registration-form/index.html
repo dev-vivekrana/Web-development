@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement registration form</title>
+</head>
+<body>
+    <h2 style="text-align: center;">College Placement Registration Form</h2>
+    <form>
+        <fieldset>
+            <legend><h4>Personal Details</h4>
+            <label for="first-name">First name : </label>
+            <input type="text" id="first-name" placeholder="Enter your first name">
+            <label for="last-name">Last name : </label>
+            <input type="text" id="last-name" placeholder="Enter your last name">
+            <br><br>
+            <label for="dob">Enter your DOB : </label>
+            <input type="date" name="" id="dob">
+            <br><br>
+            <label for="email">Email : </label>
+            <input type="text" id="email" placeholder="example@gmail.com">
+            <label for="mobile"> Mobile : </label>
+            <input type="text" id="mobile" placeholder="Enter your mobile number">
+            <br><br>
+            <p>Select your gender</p>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">Female</label>
+            <input type="radio" name="gender" id="others">
+            <label for="male">Others</label>
+            <br>
+        </legend>
+        </fieldset>
+        <fieldset>
+            <legend><h4>Address details</h4>
+            <label for="address-line-1">Adress Line 1 : </label><br>
+            <textarea id="address-line-1"></textarea>
+            <label for="city">Select your city : </label>
+            <select id="city">
+                <option value="">Delhi</option>
+                <option value="">Noida</option>
+                <option value="">Mumbai</option>
+                <option value="">Bangalore</option>
+                <option value="">Pune</option>
+            </select> <br>
+            <label for="address-line-2">Adress Line 2 : </label><br>
+            <textarea id="address-line-2"></textarea>
+            
+            <label for="country">Select your country : </label>
+            <select id="country">
+                <optgroup label="East">
+                    <option>India</option>
+                    <option>Pakistan</option>
+                    <option>China</option>
+                </optgroup>
+                <optgroup label="West">
+                    <option>UK</option>
+                    <option>USA</option>
+                    <option>Brazil</option>
+                </optgroup>
+            </select>
+        </legend>
+        </fieldset>
+        <fieldset>
+            <legend><h4>Qualifications details</h4>
+                <table></table>
+            </legend>
+        </fieldset>
+    </form>
+</body>
+</html>
