@@ -93,7 +93,7 @@ console.log("s:", s);
 
 // Number and some important methods
 
-let n = 3.14159;
+// let n = 3.14159;
 
 console.log(n.toFixed(2)); // "3.14" (returns string!)
 console.log(Number("42")); // 42
