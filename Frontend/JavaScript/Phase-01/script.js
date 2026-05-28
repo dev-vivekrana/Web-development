@@ -160,3 +160,7 @@ for(char of string){
     if(vowels.includes(char)) count++
 }
 console.log('count:', count);
+
+// -----------------------------------------------------------
+
+// JavaScript Phase 02
