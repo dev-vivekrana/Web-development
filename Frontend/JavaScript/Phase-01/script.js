@@ -165,3 +165,4 @@ console.log('count:', count);
 
 // JavaScript Phase 02
 // Javascript phase 03 internal working
+// test and practice session
