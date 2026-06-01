@@ -167,3 +167,4 @@ console.log('count:', count);
 // Javascript phase 03 internal working
 // test and practice session
 // Phase 04 - Object deeper understanding and learnt about this keyword
+// strict mode in js and all types of errors
