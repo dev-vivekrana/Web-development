@@ -168,3 +168,6 @@ console.log('count:', count);
 // test and practice session
 // Phase 04 - Object deeper understanding and learnt about this keyword
 // strict mode in js and all types of errors
+// "this" keyoword , its different behaviour 
+// call apply bind method
+// prototype & Prototypal inheritance
