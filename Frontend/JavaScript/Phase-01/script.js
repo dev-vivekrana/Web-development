@@ -172,3 +172,4 @@ console.log('count:', count);
 // call apply bind method
 // prototype & Prototypal inheritance
 // async js
+// event loop call back queue and promises
