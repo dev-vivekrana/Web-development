@@ -171,3 +171,4 @@ console.log('count:', count);
 // "this" keyoword , its different behaviour 
 // call apply bind method
 // prototype & Prototypal inheritance
+// async js
