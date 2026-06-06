@@ -173,3 +173,4 @@ console.log('count:', count);
 // prototype & Prototypal inheritance
 // async js
 // event loop call back queue and promises
+// promises in detail
